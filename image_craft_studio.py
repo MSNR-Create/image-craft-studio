@@ -5720,6 +5720,9 @@ def main():
     app = QApplication(sys.argv)
     app.setApplicationName("Image Craft Studio")
     app.setOrganizationName("ICS")
+    _icon_path = Path(getattr(sys, "_MEIPASS", Path(__file__).parent)) / "image_craft_studio.ico"
+    if _icon_path.exists():
+        app.setWindowIcon(QIcon(str(_icon_path)))
 
     # Dark style
     app.setStyle("Fusion")

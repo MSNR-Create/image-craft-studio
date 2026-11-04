@@ -5,7 +5,7 @@ a = Analysis(
     ['image_craft_studio.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('image_craft_studio.ico', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['MS_Series.ico'],
+    icon=['image_craft_studio.ico'],
 )
