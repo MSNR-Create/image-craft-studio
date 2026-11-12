@@ -36,3 +36,7 @@ pyinstaller image_craft_studio.spec
 ```
 
 `dist/image_craft_studio.exe` が生成されます。
+
+## ライセンス
+
+[MIT License](LICENSE)
